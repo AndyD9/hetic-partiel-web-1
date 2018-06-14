@@ -1339,3 +1339,6 @@
             transition: all .3s ease;
                  
         }
+.bgded {
+    background: url(../../images/demo/backgrounds/conciergerie1.jpg);
+}
