@@ -40,9 +40,10 @@
 
         #header {}
 
-        #header #logo {
-	        margin: 30px 0 0 0;
-        }
+            #header #logo {
+                margin: 15px 0 0 0;
+                text-align: center;
+            }
 
         #header #logo h1 {
 	        margin: 0;
@@ -105,8 +106,9 @@
         }
 
         .services {
-	        margin-bottom: 80px;
-        }
+            margin-bottom: 80px;
+            text-align: center;
+        }       
 
         .services>li>ul li {
 	        margin-bottom: 10px;
@@ -1230,10 +1232,11 @@
 	        #comments input[type="reset"] {
 		        margin-top: 10px;
 	        }
-	        .pagination li {
-		        display: inline-block;
-		        margin: 0 5px 5px 0;
-	        }
+            .pagination li {
+                display: inline-block;
+                margin: 0 5px 5px 0;
+                text-align: center;
+            }
 	        #footer {}
 	        #copyright {}
 	        #copyright p:first-of-type {
@@ -1242,12 +1245,13 @@
         }
 
         @media screen and (max-width:750px) {
-	        .imgl,
-	        .imgr {
-		        display: inline-block;
-		        float: none;
-		        margin: 0 0 10px 0;
-	        }
+            .imgl,
+            .imgr {
+                display: inline-block;
+                float: none;
+                margin: 0 0 10px 0;
+                text-align: center;
+            }
 	        .fl_left,
 	        .fl_right {
 		        display: block;
@@ -1258,6 +1262,7 @@
 	        .clear .group>*:last-child,
 	        .group .clear>*:last-child {
 		        margin-bottom: 0;
+                text-align: center;
 	        }
 	        /* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	        .one_half,
@@ -1269,7 +1274,7 @@
 		        display: block;
 		        float: none;
 		        width: auto;
-		        margin: 0 0 30px 0;
+		        margin: 30px auto;
 		        padding: 0;
 	        }
 	        #header {
@@ -1300,14 +1305,15 @@
         /* Other --------------------------------------------------------------------------------------------------------------- */
 
         @media screen and (max-width:650px) {
-	        .scrollable {
-		        display: block;
-		        width: 100%;
-		        margin: 0 0 30px 0;
-		        padding: 0 0 15px 0;
-		        overflow: auto;
-		        overflow-x: scroll;
-	        }
+            .scrollable {
+                display: block;
+                width: 100%;
+                margin: 0 0 30px 0;
+                padding: 0 0 15px 0;
+                overflow: auto;
+                overflow-x: scroll;
+                text-align: center;
+            }
 	        .scrollable table {
 		        margin: 0;
 		        padding: 0;
