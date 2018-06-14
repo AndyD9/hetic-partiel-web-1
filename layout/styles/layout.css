@@ -1346,3 +1346,6 @@
             width: 10%;
             float: right;
         }
+        .sticky {
+             position: fixed;
+        }
