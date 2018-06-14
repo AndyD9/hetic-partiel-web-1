@@ -1210,6 +1210,19 @@
         /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
 
         @media screen and (max-width:900px) {
+
+            #hamburger-content {
+                display: none;
+            }
+
+            #hamburger-button, #hamburger-sidebar,
+            .hamburger-activated #hamburger-overlay {
+                display: block;
+            }
+
+            .hamburger-activated #hamburger-sidebar {
+                transform: translateX(0);
+            }
 	        .hoc {
 		        max-width: 90%;
 	        }
@@ -1349,3 +1362,6 @@
         .sticky {
              position: fixed;
         }
+
+
+
