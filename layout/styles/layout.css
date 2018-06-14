@@ -1339,6 +1339,10 @@
             transition: all .3s ease;
                  
         }
-.bgded {
-    background: url(../../images/demo/backgrounds/conciergerie1.jpg);
-}
+        .bgded {
+            background: url(../../images/demo/backgrounds/conciergerie1.jpg);
+        }
+        .scrolTopBtn{
+            width: 10%;
+            float: right;
+        }
